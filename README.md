@@ -15,5 +15,5 @@ Welcome to **Python Exploration**! This repository is a structured journey throu
 
 ### 1️⃣ **Clone the Repository**  
 ```sh
-git clone https://github.com/your-username/Python-Exploration.git
+git clone https://github.com/Faisalmalik01/Python-Exploration.git
 cd Python-Exploration
