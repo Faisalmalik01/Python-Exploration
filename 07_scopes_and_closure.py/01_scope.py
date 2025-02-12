@@ -8,7 +8,7 @@ This script demonstrates:
 4. Practical Example of Closures with Power Functions
 """
 
-# 🔹 Global vs Local Scope
+
 global_username = "admin"  # Global variable
 
 def show_username():
@@ -19,7 +19,7 @@ print(global_username)  # Output: admin (Global scope)
 show_username()
 
 
-# 🔹 Using the `global` Keyword (NOT recommended)
+# Using the `global` Keyword (NOT recommended)
 global_counter = 10  # Global variable
 
 def modify_global_variable():
@@ -30,7 +30,7 @@ modify_global_variable()
 print(global_counter)  # Output: 20
 
 
-# 🔹 Nested Functions and Closures
+# Nested Functions and Closures
 def outer_function():
     greeting = "Hello"  # Variable inside enclosing function
 
@@ -43,7 +43,7 @@ closure_instance = outer_function()
 closure_instance()  # Output: Hello
 
 
-# 🔹 Practical Example: Power Function Using Closures
+# Practical Example: Power Function Using Closures
 def power_function(exponent):
     """ Returns a function that raises numbers to the given exponent """
     def calculate_power(base):
